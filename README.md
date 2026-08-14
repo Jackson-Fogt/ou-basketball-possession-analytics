@@ -1,7 +1,7 @@
 # ou-basketball-possession-analytics
 Modeling player shot-creation execution ratings (SCER) against turnover metrics to isolate playmaking efficiency in college basketball.
 # NCAA Basketball: Player Risk vs. Reward Efficiency Matrix
-**Project By:** Sophomore University of Oklahoma Industrial & Systems Engineering / Data Science Student
+**Project By:** First year University of Oklahoma Industrial & Systems Engineering / Data Science Student
 
 ## Project Overview
 This sports analytics model evaluates the offensive footprint of the Oklahoma Men's Basketball roster by framing individual playmaking as a system optimization problem. Traditional box-score metrics fail to capture the true value of a playmaker by ignoring hidden statistics and heavily double-counting errors. 
@@ -17,7 +17,7 @@ To isolate pure shot-creation performance from ball-handling errors, this model 
 $$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\text{G}} \times 0.69\right) + 3\left(\frac{\text{AST}}{\text{G}} \times 0.31\right) + \left(0.15 \times 2 \times \text{Team FT%}\right)}{\frac{\text{FGA}}{\text{G}} + 0.44\left(\frac{\text{FTA}}{\text{G}}\right) + \frac{\text{AST}}{\text{G}} + 0.15} \right) \times 100$$
 
 
-### 🛠️ Advanced Environmental Adjustments:
+### Advanced Environmental Adjustments:
 1. **The Assist Type Mix:** Assists are weighted using the team's historical field goal distribution, assuming an offensive execution profile of **69% 2-pointers** and **31% 3-pointers** for made assists.
 2. **The Teammate Free-Throw Constant (Team FT):** To prevent individual passer bias, points generated from un-tracked Free Throw Assists are anchored to an absolute-referenced **Overall Team Free Throw Percentage** cell, assuming a teammate shoots the collective team baseline whenever they receive a pass leading to a foul.
 
