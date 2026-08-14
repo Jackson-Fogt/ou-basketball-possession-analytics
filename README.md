@@ -19,7 +19,7 @@ $$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\te
 
 ### 🛠️ Advanced Environmental Adjustments:
 1. **The Assist Type Mix:** Assists are weighted using the team's historical field goal distribution, assuming an offensive execution profile of **69% 2-pointers** and **31% 3-pointers** for made assists.
-2. **The Teammate Free-Throw Constant ($\$S\Team FT):** To prevent individual passer bias, points generated from un-tracked Free Throw Assists are anchored to an absolute-referenced **Overall Team Free Throw Percentage** cell ($\$S\$20$), assuming a teammate shoots the collective team baseline whenever they receive a pass leading to a foul.
+2. **The Teammate Free-Throw Constant (Team FT):** To prevent individual passer bias, points generated from un-tracked Free Throw Assists are anchored to an absolute-referenced **Overall Team Free Throw Percentage** cell, assuming a teammate shoots the collective team baseline whenever they receive a pass leading to a foul.
 
 ---
 
