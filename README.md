@@ -3,14 +3,14 @@ Modeling player shot-creation execution ratings (SCER) against turnover metrics 
 # NCAA Basketball: Player Risk vs. Reward Efficiency Matrix
 **Project By:** Sophomore University of Oklahoma Industrial & Systems Engineering / Data Science Student
 
-## 📌 Project Overview
+## Project Overview
 This sports analytics model evaluates the offensive footprint of the Oklahoma Men's Basketball roster by framing individual playmaking as a system optimization problem. Traditional box-score metrics fail to capture the true value of a playmaker by ignoring hidden statistics and heavily double-counting errors. 
 
 This model resolves those biases by establishing a custom **Shot Creation Execution Rating (SCER)** on the X-Axis and mapping it directly against **Asset Risk (Turnover %)** on the Y-Axis to build a comprehensive, two-variable system trade-off matrix. 
 
 ---
 
-## 🧮 The Mathematical Framework
+## The Mathematical Framework
 To isolate pure shot-creation performance from ball-handling errors, this model intentionally excludes turnovers from the scoring-opportunity denominator and standardizes all box-score totals into precise per-game averages using total games played ($G$).
 
 ### Shot Creation Execution Rating (SCER) Formula:
@@ -23,7 +23,7 @@ $$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\te
 
 ---
 
-## 📊 Visual Model & Scatter Plot
+## Visual Model & Scatter Plot
 
 <img width="1653" height="1652" alt="OU Basketball Offensive Productivity matrix-2 jpg" src="https://github.com/user-attachments/assets/260207f6-ed4a-45ac-9cc5-b317e56bbd67" />
 
@@ -31,7 +31,7 @@ $$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\te
 
 ---
 
-## 🔍 Key Analytical Insights & Data Auditing
+## Key Analytical Insights & Data Auditing
 
 * **The Floor General Anchor (High Reward / Low Risk):** Point guard Nijel Pack anchors the elite quadrant of the system, showcasing a world-class **145.08 SCER** while maintaining an incredibly secure **12.00% Turnover Rate**, proving massive efficiency under high volume.
 * **System Uniformity:** The core rotation exhibits a highly optimized system alignment, clustering tightly between an elite **130.00 and 146.00 SCER** baseline, showing no severe drop-off in output efficiency during bench rotations.
@@ -40,7 +40,7 @@ $$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\te
 
 ---
 
-## 🗂️ Sources & Acknowledgments
+## Sources & Acknowledgments
 
 * **Roster Statistics:** Raw metrics and data profiles compiled via [Sports-Reference College Basketball](https://sports-reference.com).
 * **Free-Throw Assist Tracking:** The $0.15$ per-game Free Throw Assist volume constant was derived from NBA tracking parameters provided by [HoopsJunkie.io](https://hoopsjunkie.io), mathematically scaled down to adjust for collegiate game-duration and possession-pace differentials.
