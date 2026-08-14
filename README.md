@@ -27,7 +27,7 @@ $$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\te
 
 <img width="1653" height="1652" alt="OU Basketball Offensive Productivity matrix-2 jpg" src="https://github.com/user-attachments/assets/260207f6-ed4a-45ac-9cc5-b317e56bbd67" />
 
-![Roster Risk vs Reward Matrix](OU Basketball Offensive Productivity matrix-2.jpg)
+![Roster Risk vs Reward Matrix](<img width="1653" height="1652" alt="OU Basketball Offensive Productivity matrix-2 jpg - Copy" src="https://github.com/user-attachments/assets/cd8ab035-d4ac-4909-ab63-74d2a0d958b5" />)
 
 ---
 
