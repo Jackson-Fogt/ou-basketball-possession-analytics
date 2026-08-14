@@ -14,7 +14,7 @@ This model resolves those biases by establishing a custom **Shot Creation Execut
 To isolate pure shot-creation performance from ball-handling errors, this model intentionally excludes turnovers from the scoring-opportunity denominator and standardizes all box-score totals into precise per-game averages using total games played ($G$).
 
 ### Shot Creation Execution Rating (SCER) Formula:
-$$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\text{G}} \times 0.69\right) + 3\left(\frac{\text{AST}}{\text{G}} \times 0.31\right) + \left(0.15 \times 2 \times \text{Team FT\%}\right)}{\frac{\text{FGA}}{\text{G}} + 0.44\left(\frac{\text{FTA}}{\text{G}}\right) + \frac{\text{AST}}{\text{G}} + 0.15} \right) \times 100$$
+$$SCER = \left( \frac{\frac{\text{PTS}}{\text{G}} + 2\left(\frac{\text{AST}}{\text{G}} \times 0.69\right) + 3\left(\frac{\text{AST}}{\text{G}} \times 0.31\right) + \left(0.15 \times 2 \times \text{Team FT%}\right)}{\frac{\text{FGA}}{\text{G}} + 0.44\left(\frac{\text{FTA}}{\text{G}}\right) + \frac{\text{AST}}{\text{G}} + 0.15} \right) \times 100$$
 
 
 ### 🛠️ Advanced Environmental Adjustments:
